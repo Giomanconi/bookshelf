@@ -28,6 +28,7 @@ Required
 
 * NodeJS 12 or higher
 * Yarn
+* *https://github.com/Giomanconi/api-bookshelf
 
 ### <a name="install-project">Project Setup</a>
 Use the package manager [yarn](https://phttps://yarnpkg.com/) to install the app.

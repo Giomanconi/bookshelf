@@ -1,4 +1,4 @@
-# UI Technical Interview
+# UI 
 
 The goal of this challenge is to check test automation skills in UI testing. The idea is that the candidate can create automated tests for Bookshelf app using any test automation framework (Robot Framework, SpecFlow, Cucumber, Cypress). 
 

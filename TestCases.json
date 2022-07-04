@@ -1,0 +1,360 @@
+{
+    "Test Cases": [
+        {
+            "Story 1": [
+                {
+                    "id": 1,
+                    "Title": "Adding a book - All fields",
+                    "Description": "User should be able to add a new book correctly and should e able to verify that the book was stored correctly on the db",
+                    "Priority": "High"
+                },
+                {
+                    "id": 2,
+                    "Title": "Adding a book - Required fields only",
+                    "Description": "User should be able to add a new book by just adding the required fields and should e able to verify that the book was stored correctly on the db",
+                    "Priority": "High"
+                },
+                {
+                    "id": 3,
+                    "Title": "Verify that Title field exists",
+                    "Description": "Title field should be an input",
+                    "Priority": "High"
+                },
+                {
+                    "id": 4,
+                    "Title": "Verify that Author field exists",
+                    "Description": "Author field should be an input",
+                    "Priority": "High"
+                },
+                {
+                    "id": 5,
+                    "Title": "Verify that Format field exists",
+                    "Description": "Format field should be a dropdown",
+                    "Priority": "High"
+                },
+                {
+                    "id": 6,
+                    "Title": "Verify that Language field exists",
+                    "Description": "Language field should be a dropdown",
+                    "Priority": "High"
+                },
+                {
+                    "id": 7,
+                    "Title": "Verify that Publication Year field exists",
+                    "Description": "Publication Year field should be an input",
+                    "Priority": "High"
+                },
+                {
+                    "id": 8,
+                    "Title": "Verify that Description field exists",
+                    "Description": "Title field should be a TextArea",
+                    "Priority": "High"
+                },
+                {
+                    "id": 9,
+                    "Title": "Verify that Personal Rating field exists",
+                    "Description": "Personal Rating field should be on the form",
+                    "Priority": "High"
+                },
+                {
+                    "id": 10,
+                    "Title": "Validate that Title field is required",
+                    "Description": "Title field should be required when submiting a new book and a error should appear on screen if the field is not filled",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 11,
+                    "Title": "Validate that Author field is required",
+                    "Description": "Author field should be required when submiting a new book and a error should appear on screen if the field is not filled",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 12,
+                    "Title": "Format dropdown should be populated",
+                    "Description": "When filling the new book form, Format dropdown should be populated with the test data",
+                    "Priority": "Medium",
+                    "Test data": "./fixtures/formData/formatData.json"
+                },
+                {
+                    "id": 13,
+                    "Title": "Language dropdown should be populated ",
+                    "Description": "When filling the new book form, Language dropdown should be populated with the test data",
+                    "Priority": "Medium",
+                    "Test data": "./fixtures/formData/languageData.json"
+                },
+                {
+                    "id": 14,
+                    "Title": "Title field should limit to 100 characters - Typing",
+                    "Description": "When typing characters, title field should limit to only allow 100 characters",
+                    "Priority": "low"
+                },
+                {
+                    "id": 15,
+                    "Title": "Title field should limit to 100 characters - copypasting",
+                    "Description": "When copypasting more than 100 characters, title field should limit to only the first 100 characters",
+                    "Priority": "low"
+                },
+                {
+                    "id": 16,
+                    "Title": "Publication Year field should limit to 4 characters - Typing",
+                    "Description": "When typing characters, Publication Year field should limit to only allow 100 characters",
+                    "Priority": "low"
+                },
+                {
+                    "id": 17,
+                    "Title": "Publication Year field should limit to 100 characters - copypasting",
+                    "Description": "When copypasting more than 100 characters, Publication Year field should limit to only the first 100 characters",
+                    "Priority": "low"
+                },
+                {
+                    "id": 18,
+                    "Title": "Verify that a notification appears when the user add a book successfully",
+                    "Description": "After adding a new book successfully, a notification should appear",
+                    "Priority": "low"
+                },
+                {
+                    "id": 19,
+                    "Title": "Add button is disabled if Title field is empty",
+                    "Description": "Add button should be disabled until all the required fields are filled",
+                    "Priority": "low"
+                },
+                {
+                    "id": 20,
+                    "Title": "Add button is disabled if Author field is empty",
+                    "Description": "Add button should be disabled until all the required fields are filled",
+                    "Priority": "low"
+                },
+                {
+                    "id": 21,
+                    "Title": "Add button is enabled when required fields are filled",
+                    "Description": "Add button should be enabled when the required fields are filled",
+                    "Priority": "low"
+                }
+            ],
+            "Story 2": [
+                {
+                    "id": 1,
+                    "Title": "Updating a single field of a book",
+                    "Description": "User should be able to update a field of an existing book",
+                    "Priority": "High"
+                },
+                {
+                    "id": 2,
+                    "Title": "Updating all fields of a book",
+                    "Description": "User should be able to update all fields of an existing book",
+                    "Priority": "High"
+                },
+                {
+                    "id": 3,
+                    "Title": "Updating Title - Required field",
+                    "Description": "When updating a book consider that title is a required field and it shouldn't let the user update if the field is empty by disabling the save button",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 4,
+                    "Title": "Updating Title - 100 characters limit",
+                    "Description": "When updating a book consider that title character limit is 100 and it should not save if it surpasses that limit",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 5,
+                    "Title": "Updating Author - Required field",
+                    "Description": "When updating a book consider that Author is a required field and it shouldn't let the user update if the field is empty by disabling the save button",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 6,
+                    "Title": "Updating Author - 100 characters limit",
+                    "Description": "When updating a book consider that Author character limit is 100 and it should not save if it surpasses that limit",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 7,
+                    "Title": "Updating Publication year - 4 characters limit",
+                    "Description": "When updating a book consider that Publication year character limit is 4 and it should not save if it surpasses that limit",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 8,
+                    "Title": "Verify that a notification appears when the user updates a book successfully",
+                    "Description": "After updating a book successfully, a notification should appear",
+                    "Priority": "low"
+                }
+            ],
+            "Story 3": [
+                {
+                    "id": 1,
+                    "Title": "Deleting a book",
+                    "Description": "When in the Detailed view of a book, user should be able to delete a book",
+                    "Priority": "High"
+                },
+                {
+                    "id": 2,
+                    "Title": "Delete confirmation popup",
+                    "Description": "After clicking on the delete button, a confirmation popup should appear for the user to accept to continue with the deleting process",
+                    "Priority": "High"
+                },
+                {
+                    "id": 3,
+                    "Title": "OK button on delete confirmation popup",
+                    "Description": "OK button should be visible on the confirmation popup",
+                    "Priority": "High"
+                },
+                {
+                    "id": 4,
+                    "Title": "Cancel button on delete confirmation popup",
+                    "Description": "Cancel button should be visible on the confirmation popup",
+                    "Priority": "High"
+                },
+                {
+                    "id": 5,
+                    "Title": "Successful delete notification",
+                    "Description": "A notification should appear to let the user know the deletion was successful",
+                    "Priority": "low"
+                }
+            ],
+            "Story 4": [
+                {
+                    "id": 1,
+                    "Title": "Searching a book by Title",
+                    "Description": "User should be able to perform a search by the book title",
+                    "Priority": "High"
+                },
+                {
+                    "id": 2,
+                    "Title": "Searching a book by Author",
+                    "Description": "User should be able to perform a search by the book Author",
+                    "Priority": "High"
+                },
+                {
+                    "id": 3,
+                    "Title": "Search by 'contain' ",
+                    "Description": "When performing a search, the results should contain on the Author or Title fields the same string the user searched for",
+                    "Priority": "High"
+                },
+                {
+                    "id": 4,
+                    "Title": "Search field should be visible",
+                    "Description": "On the Search Book section, the Search bar should be visible on the navbar",
+                    "Priority": "High"
+                },
+                {
+                    "id": 5,
+                    "Title": "Results Grid is visible",
+                    "Description": "After performing a search, a grid with the results should be visible to the user",
+                    "Priority": "High"
+                },
+                {
+                    "id": 6,
+                    "Title": "'Title' column title",
+                    "Description": "'Title' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 7,
+                    "Title": "'Author' column title",
+                    "Description": "'Author' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 8,
+                    "Title": "'Format' column title",
+                    "Description": "'Format' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 9,
+                    "Title": "'Language' column title",
+                    "Description": "'Language' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 10,
+                    "Title": "'Publication Year' column title",
+                    "Description": "'Publication Year' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 11,
+                    "Title": "'Rating' column title",
+                    "Description": "'Rating' field should be visible on top of the grid after a search",
+                    "Priority": "Low"
+                },
+                {
+                    "id": 12,
+                    "Title": "'Book detail section",
+                    "Description": "When clicking on a search result a new section on the right should appear and show to the user a more detailed book view",
+                    "Priority": "Low"
+                }
+            ],
+            "API exercises": [
+                {
+                    "id": 1,
+                    "Title": "Get all books",
+                    "Description": "As a user I should be able to get all books and verify that the following parameters exists in the JSON requests: title, format, author, language, description, publication year and rating",
+                    "Priority": "High"
+                },
+                {
+                    "id": 2,
+                    "Title": "Get a single book",
+                    "Description": "The user should be able to get a book",
+                    "Priority": "High"
+                },
+                {
+                    "id": 3,
+                    "Title": "Sort books 'by'",
+                    "Description": "The user should be able to get a book list ordered",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 4,
+                    "Title": "Filter books 'by'",
+                    "Description": "The user should be able to get a filtered book list",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 5,
+                    "Title": "Insert a Book",
+                    "Description": "The user should be able to Insert a book from a request",
+                    "Priority": "High"
+                },
+                {
+                    "id": 6,
+                    "Title": "Delete a Book",
+                    "Description": "The user should be able to remove a book from the db",
+                    "Priority": "High"
+                },
+                {
+                    "id": 7,
+                    "Title": "Update a Book information",
+                    "Description": "The user should be able to Update a book information",
+                    "Priority": "High"
+                },
+                {
+                    "id": 8,
+                    "Title": "Verify JSON object atributes",
+                    "Description": "Verify that the following parameters exists in the JSON requests: title, format, author, language, description, publication year and rating",
+                    "Priority": "High"
+                },
+                {
+                    "id": 9,
+                    "Title": "NOT REQUIRED - Publication year field 4 characters limit validation",
+                    "Description": "While making a post request, publication year should only be able to receive up to 4 characters",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 10,
+                    "Title": "NOT REQUIRED - Author field 100 characters limit validation",
+                    "Description": "While making a post request, Author field should only be able to receive up to 100 characters",
+                    "Priority": "Medium"
+                },
+                {
+                    "id": 11,
+                    "Title": "NOT REQUIRED - Title field 100 characters limit validation",
+                    "Description": "While making a post request, Title field should only be able to receive up to 100 characters",
+                    "Priority": "Medium"
+                }
+            ]
+        }
+    ]
+}

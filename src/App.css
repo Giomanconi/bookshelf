@@ -1,0 +1,23 @@
+.main-add {
+  height: 100%;
+  width: 700px;
+}
+
+.main-search {
+  height: 100%;
+  width: 100%;
+}
+
+.image-logo {
+  min-height: 64px;
+}
+
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawerPaper {
+  width: 240px;
+  color: 'black';
+}

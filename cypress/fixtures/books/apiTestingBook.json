@@ -1,0 +1,10 @@
+{
+    "id": "111",
+    "title": "API-Test-Book",
+    "format": "eBook",
+    "author": "API",
+    "language": "English",
+    "pubYear": "2222",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "rating": 3
+ }
